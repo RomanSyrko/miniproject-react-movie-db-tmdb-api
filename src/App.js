@@ -11,8 +11,7 @@ function App() {
             <Route path={'/'} element={<MainLayout/>}>
                 <Route index element={<Navigate to={'home'}/>}/>
                 <Route path={'home'} element={<HomePage/>}/>
-                <Route path={'details'} element={<MovieInfoPage/>}/>
-                {/*</Route>*/}
+                <Route path={'home/details'} element={<MovieInfoPage/>}/>
                 <Route path={'user'} element={<UserPage/>}/>
             </Route>
         </Routes>

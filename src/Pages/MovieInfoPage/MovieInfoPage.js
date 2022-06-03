@@ -4,6 +4,7 @@ import {movieService} from "../../Services";
 import {MovieDetails} from "../../Components";
 
 const MovieInfoPage = () => {
+
     const [movie, setMovie] = useState([]);
 
     useEffect(() => {

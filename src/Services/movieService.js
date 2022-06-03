@@ -4,8 +4,7 @@ import {urls} from "../Constants";
 
 const movieService = {
     getAll: () => axiosService.get(urls.popularMovie),
-    getById: (id) => axiosService.get(`${urls.selectedMovie}/${id}`)
-
+    getOne: (id) => axiosService.get(`${urls.movieDetails}/${id}`)
 }
 
 export {movieService}

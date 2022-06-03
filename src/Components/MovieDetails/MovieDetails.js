@@ -1,9 +1,10 @@
 const MovieDetails = ({movie}) => {
-    const {title, img} = movie;
+    const {title, poster_path} = movie;
     return (
         <div>
-            <h3>title: {title}</h3>
-            <h4>img: {img}</h4>
+            Hello!!
+            <p className={"title"}> {title}</p>
+            <img src={`https://image.tmdb.org/t/p/w500/${poster_path}`} alt={title}/>
         </div>
     );
 };

@@ -1,8 +1,9 @@
 import {useEffect, useState} from "react";
 
 import {movieService} from "../../Services";
-import {Movie} from "../../Components";
-
+import {Movies} from "../../Components";
+import './HomePage.css'
+import {Reducer} from "../../Reducer/Reducer";
 
 const HomePage = () => {
     const [movies, setMovies] = useState([]);
@@ -11,10 +12,12 @@ const HomePage = () => {
         movieService.getAll().then(({data}) => setMovies(data.results))
     }, [])
 
-    console.log(movies);
     return (
         <div>
-            {movies.map(movie => <Movie key={movie.id} movie={movie}/>)}
+            <div className={"wrap"}>
+                {movies.map(movie => <Movies key={movie.id} movie={movie}/>)}
+            </div>
+            <Reducer/>
         </div>
     );
 };

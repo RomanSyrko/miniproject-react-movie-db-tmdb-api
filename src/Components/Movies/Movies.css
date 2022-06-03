@@ -1,0 +1,34 @@
+.MoviesCenter{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 370px;
+    justify-content: space-between;
+}
+
+.MoviesTitle{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+/*.MoviesMargin{*/
+/*    margin-right: 4%;*/
+/*    margin-bottom: 30px;*/
+/*}*/
+
+.box:hover{
+    transform: scale(1.1);
+    transition: 1000ms;
+}
+
+.box {
+    margin: 0 20px 40px 0;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 9px 9px 16px rgb(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    background-color: #e0e5eb;
+    transition: all .2s ease-in-out;
+}

@@ -1,8 +1,7 @@
-.ReducerCenter{
+.ButtonCenter{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 button {

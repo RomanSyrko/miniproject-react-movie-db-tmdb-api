@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30ffa000-0226-4f33-8c41-ad58baa4bf9c" name="Changes" comment="004">
-      <change afterPath="$PROJECT_DIR$/src/PageButtons/PageButtons.js" afterDir="false" />
+    <list default="true" id="30ffa000-0226-4f33-8c41-ad58baa4bf9c" name="Changes" comment="005">
+      <change afterPath="$PROJECT_DIR$/src/Pages/MovieInfoPage/MovieInfoPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/UserPage/UserPage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/MovieDetails/MovieDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MovieDetails/MovieDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/MovieDetails/MovieDetails.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Movies/Movies.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Movies/Movies.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Movies/Movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Movies/Movies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constants/urls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants/urls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layouts/MainLayout/MainLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/MainLayout/MainLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layouts/MainLayout/MainLayout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/MainLayout/MainLayout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PageButtons/PageButtons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Buttons/PageButtons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PageButtons/PageButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Buttons/PageButtons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/HomePage/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/HomePage/HomePage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/HomePage/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/HomePage/HomePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/MovieInfoPage/MovieInfoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/MovieInfoPage/MovieInfoPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reducer/Reducer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/PageButtons/PageButtons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Reducer/Reducer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/UserPage/UserPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/UserPage/UserPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Services/movieService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/movieService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
@@ -23,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
@@ -42,19 +52,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
-    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Components" />
@@ -86,7 +97,9 @@
       <option name="presentableId" value="Default" />
       <updated>1654238452044</updated>
       <workItem from="1654238468014" duration="19309000" />
-      <workItem from="1654261269497" duration="9493000" />
+      <workItem from="1654261269497" duration="9530000" />
+      <workItem from="1654325951552" duration="7283000" />
+      <workItem from="1654336132288" duration="15669000" />
     </task>
     <task id="LOCAL-00001" summary="004">
       <created>1654261183427</created>
@@ -95,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654261183427</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="005">
+      <created>1654272614454</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654272614454</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +134,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="004" />
-    <option name="LAST_COMMIT_MESSAGE" value="004" />
+    <MESSAGE value="005" />
+    <option name="LAST_COMMIT_MESSAGE" value="005" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,34 +1,49 @@
-.MoviesCenter{
+
+.MoviesCenter {
     display: flex;
     flex-direction: column;
-    width: 200px;
-    height: 370px;
-    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
 }
 
-.MoviesTitle{
+.MoviesTitle {
     display: flex;
     justify-content: center;
     text-align: center;
-
 }
 
-/*.MoviesMargin{*/
-/*    margin-right: 4%;*/
-/*    margin-bottom: 30px;*/
-/*}*/
-
-.box:hover{
-    transform: scale(1.1);
+.box:hover {
     transition: 1000ms;
+    transform: scale(1.1)
 }
-
-.box {
-    margin: 0 20px 40px 0;
-    box-sizing: border-box;
-    padding: 20px;
-    box-shadow: 9px 9px 16px rgb(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
-    border-radius: 10px;
-    background-color: #e0e5eb;
-    transition: all .2s ease-in-out;
+.MoviesImg{
+    border-radius: 20px;
+}
+.MoviesImg{
+    padding: 10px;
+    background: #e0e5eb;
+    border: none;
+    border-radius: .5rem;
+    color: #444;
+    font-weight: 500;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, .5),
+    -6px -6px 10px rgba(255, 255, 255, .5),
+    6px 6px 8px rgba(255, 255, 255, .075),
+    6px 6px 10px rgba(0, 0, 0, .15);
+}
+.MoviesImg:hover {
+    box-shadow: -2px -2px 6px rgba(255, 255, 255, .6),
+    -2px -2px 4px rgba(255, 255, 255, .4),
+    2px 2px 2px rgba(255, 255, 255, .05),
+    2px 2px 4px rgba(0, 0, 0, .1);
+}
+.MoviesImg:active {
+    box-shadow: inset -2px -2px 6px rgba(255, 255, 255, .7),
+    inset -2px -2px 4px rgba(255, 255, 255, .5),
+    inset 2px 2px 2px rgba(255, 255, 255, .075),
+    inset 2px 2px 4px rgba(0, 0, 0, .15);
 }

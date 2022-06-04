@@ -1,21 +1,30 @@
+import './MovieInfoPage.css'
 import {useEffect, useState} from "react";
-
 import {movieService} from "../../Services";
-import {MovieDetails} from "../../Components";
 
 const MovieInfoPage = () => {
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const movie_id = urlParams.get('movie_id')
+    console.log(movie_id);
 
-    const [movie, setMovie] = useState([]);
+    const [movieDetails, setMovieDetails] = useState({});
+
 
     useEffect(() => {
-        movieService.getOne().then(({data}) => setMovie(data))
-    }, [])
+        movieService.getMovieDetails(movie_id).then(({data}) => {
+            setMovieDetails({...data});
+        })
+    }, [movie_id])
+
+    console.log(movieDetails);
 
     return (
         <div>
-            {movie && <MovieDetails movie={movie}/>}
+            <h3>Title: {movieDetails.title}</h3>
+            <img src={`https://image.tmdb.org/t/p/w500/${movieDetails.poster_path}`} alt={movieDetails.title}/>
+            <div>Overview: {movieDetails.overview}</div>
         </div>
-
     );
 };
 

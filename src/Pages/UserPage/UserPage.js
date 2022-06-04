@@ -1,7 +1,9 @@
+import './UserPage.css'
+
 const UserPage = () => {
     return (
-        <div>
-            UserPage
+        <div className={"UserPage"}>
+            User Page
         </div>
     );
 };

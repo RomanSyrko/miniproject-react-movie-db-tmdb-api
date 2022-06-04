@@ -1,15 +1,32 @@
-.wrap{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+*{
+    text-decoration: none;
+    color: #1a2e44;
+    font-family: "Roboto Light", sans-serif;
 }
-
 body{
     background-color: #e0e5eb;
 }
 
-*{
-    text-decoration: none;
-    color: black;
+.wrap{
+    display: flex;
+    -ms-overflow-style: none;
+    overflow-x: scroll;
+}
+.wrap::-webkit-scrollbar{
+    display: none;
+}
+.MovieINFO{
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+}
+h3{
+    margin: 0;
 }
 
+.dark{
+    background-color: #1a2e44;
+}

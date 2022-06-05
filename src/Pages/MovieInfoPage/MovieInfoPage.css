@@ -1,5 +1,34 @@
 .MovieInfoPage{
     display: flex;
-    justify-content: center;
-    font-size: 50px;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20%;
 }
+.colorText{
+    color: var(--baseDark3);
+}
+.dark .colorText{
+    color: var(--base2);
+}
+
+.DFlexDetails{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.space{
+    width: 90%;
+}
+
+.imdb{
+    width: 80px;
+}
+
+.textOverview{
+    width: 90%;
+}
+
+
+

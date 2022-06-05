@@ -1,36 +1,63 @@
-.ButtonCenter{
+.ButtonCenter {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+body{
+    --base1: #EBEFF3;
+    --base2: #C3D0DB;
+    --base3: #88A1B7;
+    --baseDark1: #396387;
+    --baseDark2: #204566;
+    --baseDark3: #152E44;
+    --base: #090E10;
 
-button {
+    --base-shadow-active: inset 4px 4px 9px var(--base3),
+    inset -4px -4px 6px var(--base1),
+    2px 2px 9px var(--base3),
+    -2px -2px 9px var(--base1);
+
+    --base-shadow-active-dark: inset 4px 4px 9px var(--baseDark3),
+    inset -4px -4px 6px var(--baseDark1),
+    2px 2px 9px var(--baseDark3),
+    -2px -2px 9px var(--baseDark1);
+}
+button{
     margin: 8px;
     padding: 10px;
-    background: #e0e5eb;
+    background: var(--base2);
     border: none;
     border-radius: .5rem;
-    color: #444;
+    color: var(--baseDark3);
     font-size: 15px;
     font-weight: 500;
     text-align: center;
     outline: none;
     cursor: pointer;
-    transition: .2s ease-in-out;
-    box-shadow: -6px -6px 14px rgba(255, 255, 255, .7),
-    -6px -6px 10px rgba(255, 255, 255, .5),
-    6px 6px 8px rgba(255, 255, 255, .075),
-    6px 6px 10px rgba(0, 0, 0, .15);
+    transition: all 0.25s cubic-bezier(.17, .67, .83, .67);
+    box-shadow: inset 0 0 0 var(--base3),
+    inset 0 0 0 var(--base1),
+    4px 4px 9px var(--base3),
+    -4px -4px 9px var(--base1);
 }
-button:hover {
-    box-shadow: -2px -2px 6px rgba(255, 255, 255, .6),
-    -2px -2px 4px rgba(255, 255, 255, .4),
-    2px 2px 2px rgba(255, 255, 255, .05),
-    2px 2px 4px rgba(0, 0, 0, .1);
+.dark button{
+    background: var(--baseDark2);
+    color: var(--base1);
+    box-shadow: inset 0 0 0 var(--baseDark3),
+    inset 0 0 0 var(--baseDark1),
+    4px 4px 9px var(--baseDark3),
+    -4px -4px 9px var(--baseDark1);
 }
-button:active {
-    box-shadow: inset -2px -2px 6px rgba(255, 255, 255, .7),
-    inset -2px -2px 4px rgba(255, 255, 255, .5),
-    inset 2px 2px 2px rgba(255, 255, 255, .075),
-    inset 2px 2px 4px rgba(0, 0, 0, .15);
+
+button:hover{
+    outline: none;
+    box-shadow: var(--base-shadow-active);
+    color: var(--baseDark2);
+    border-color: var(--base3);
+}
+.dark button:hover{
+    outline: none;
+    box-shadow: var(--base-shadow-active-dark);
+    color: var(--base2);
+    border-color: var(--base3);
 }

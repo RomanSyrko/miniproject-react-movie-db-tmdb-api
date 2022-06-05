@@ -1,14 +1,11 @@
 import {Navigate, Route, Routes} from "react-router-dom";
-
-import {MainLayout} from "./Layouts";
-import {HomePage, MovieInfoPage, UserPage} from "./Pages";
-import './App.css';
 import {useEffect} from "react";
 
+import {HomePage, MovieInfoPage, UserPage} from "./Pages";
+import {MainLayout} from "./Layouts";
+import './App.css';
 
 function App() {
-
-
     //Theme (MainLayouts)
     useEffect(() => {
         const theme = localStorage.getItem("theme");

@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 
 import {movieService} from "../../Services";
 import {Movies} from "../../Components";
-import {PageButtons} from "../../Buttons/PageButtons";
+import {PageButtons} from "../../Buttons";
 import './HomePage.css'
 
 const HomePage = () => {
@@ -38,18 +38,20 @@ const HomePage = () => {
     }
 
 
-
     return (
-        <div>
-            <div className={"MovieINFO"}>For Movie Information</div>
-            <div>{genres.map(genre => <button key={genre.id} onClick={ () => getMoviesByGenre(genre.id)}>{genre.name}</button>)}</div>
-            <footer>
-                <h3>The Popular Movie</h3>
-                <div className={"wrap"}>
+        <div className={"wrap"}>
+            <div className={"DFlex"}>
+                {genres.map(genre =>
+                    <button key={genre.id} onClick={() => getMoviesByGenre(genre.id)}>
+                        {genre.name}
+                    </button>)}
+            </div>
+            <div className={"DColumn"}>
+                <div className={"MovieWrap"}>
                     {movies.map(movie => <Movies key={movie.id} movie={movie}/>)}
                 </div>
                 <PageButtons onPageClick={onPageClick} pages={pages}/>
-            </footer>
+            </div>
         </div>
     );
 };

@@ -1,49 +1,63 @@
-
 .MoviesCenter {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 10px;
+    width: 300px;
 }
-
 .MoviesTitle {
     display: flex;
     justify-content: center;
     text-align: center;
 }
-
-.box:hover {
-    transition: 1000ms;
-    transform: scale(1.1)
+.dark .MoviesTitle{
+    color: var(--base2);
 }
 .MoviesImg{
     border-radius: 20px;
 }
+
+
 .MoviesImg{
     padding: 10px;
-    background: #e0e5eb;
+    background: var(--base2);
     border: none;
     border-radius: .5rem;
-    color: #444;
     font-weight: 500;
     text-align: center;
     outline: none;
     cursor: pointer;
     transition: .2s ease-in-out;
-    box-shadow: -6px -6px 10px rgba(255, 255, 255, .5),
-    -6px -6px 10px rgba(255, 255, 255, .5),
-    6px 6px 8px rgba(255, 255, 255, .075),
-    6px 6px 10px rgba(0, 0, 0, .15);
+    box-shadow: inset 0 0 0 var(--base3),
+    inset 0 0 0 var(--base1),
+    4px 4px 9px var(--base3),
+    -4px -4px 9px var(--base1);
 }
+.dark .MoviesImg{
+    padding: 10px;
+    background: var(--baseDark2);
+    border: none;
+    border-radius: .5rem;
+    font-weight: 500;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    box-shadow: inset 0 0 0 var(--baseDark3),
+    inset 0 0 0 var(--baseDark1),
+    4px 4px 9px var(--baseDark3),
+    -4px -4px 9px var(--baseDark1);
+}
+
 .MoviesImg:hover {
-    box-shadow: -2px -2px 6px rgba(255, 255, 255, .6),
-    -2px -2px 4px rgba(255, 255, 255, .4),
-    2px 2px 2px rgba(255, 255, 255, .05),
-    2px 2px 4px rgba(0, 0, 0, .1);
+    outline: none;
+    box-shadow: var(--base-shadow-active);
+    color: var(--baseDark2);
+    border-color: var(--base3);
 }
-.MoviesImg:active {
-    box-shadow: inset -2px -2px 6px rgba(255, 255, 255, .7),
-    inset -2px -2px 4px rgba(255, 255, 255, .5),
-    inset 2px 2px 2px rgba(255, 255, 255, .075),
-    inset 2px 2px 4px rgba(0, 0, 0, .15);
+.dark .MoviesImg:hover {
+    outline: none;
+    box-shadow: var(--base-shadow-active-dark);
+    color: var(--baseDark2);
+    border-color: var(--base3);
 }

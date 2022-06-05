@@ -8,7 +8,7 @@ const Movies = ({movie}) => {
 
     return (
         <div>
-            <NavLink to={`details?movie_id=${id}`}>
+            <NavLink to={`details?movie_id=${id}`} className={"DFlex"}>
                 <div className={"MoviesCenter"}>
                     <img src={`https://image.tmdb.org/t/p/w200/${poster_path}`} alt={title} className={"MoviesImg"}/>
                     <p className={"MoviesTitle"}> {title}</p>

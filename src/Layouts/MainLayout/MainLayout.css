@@ -7,37 +7,64 @@ header {
     z-index: 1;
     min-height: 60px;
     align-items: center;
-    box-shadow: 9px 9px 16px rgba(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+    background-color: var(--base2);
     border-radius: 10px;
-    background-color: #e0e5eb;
     transition: all .2s ease-in-out;
+    box-shadow: inset 0 0 0 var(--base3),
+    inset 0 0 0 var(--base1),
+    4px 4px 9px var(--base3),
+    -4px -4px 9px var(--base1);
+}
+.dark header {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    min-height: 60px;
+    align-items: center;
+    background-color: var(--baseDark2);
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+    box-shadow: inset 0 0 0 var(--baseDark3),
+    inset 0 0 0 var(--baseDark1),
+    4px 4px 9px var(--baseDark3),
+    -4px -4px 9px var(--baseDark1);
 }
 
 header a {
     text-decoration: none;
-    color: black;
+    color: var(--baseDark2);
+    font-size: 30px;
+}
+.dark header a {
+    text-decoration: none;
+    color: var(--base2);
     font-size: 30px;
 }
 
-.MovieDB{
+.ImgUserBox {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 15px;
+}
+.MovieDB {
     margin-left: 15px;
 }
 
-.btn{
-    margin: 10px;
-    padding: 5px;
-    text-decoration: none;
-    color: black;
+.userPic {
+    width: 35px;
 }
 
-.ImgUserBox{
+.ImgUserBox {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     margin-right: 15px;
 }
 
-
-.userPic{
-    width: 35px;
+.MLColorText{
+    font-weight: bold;
 }

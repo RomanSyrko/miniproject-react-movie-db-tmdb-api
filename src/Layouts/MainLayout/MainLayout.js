@@ -20,11 +20,11 @@ const MainLayout = () => {
     return (
         <div>
             <header>
-                <NavLink to="/home" className={"MovieDB"}>MovieDB</NavLink>
+                <NavLink to="/home" className={"MovieDB MLColorText"}>MovieDB</NavLink>
                 <div className={"ImgUserBox"}>
                     <button onClick={changeTheme}>Theme</button>
                     <img src="https://www.svgrepo.com/show/111216/user.svg" alt="User" className={"userPic"}/>
-                    <NavLink to="/user">User</NavLink>
+                    <NavLink to="/user" className={"MLColorText"}>User</NavLink>
                 </div>
             </header>
             <Outlet/>

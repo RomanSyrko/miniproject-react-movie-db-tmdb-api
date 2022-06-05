@@ -1,6 +1,5 @@
 const baseURL = process.env.REACT_APP_URL;
 
-
 const urls = {
     popularMovie: `/movie/popular`,
     topRated: '/movie/top_rated',

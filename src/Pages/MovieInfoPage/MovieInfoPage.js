@@ -7,12 +7,14 @@ const MovieInfoPage = () => {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
     const movie_id = urlParams.get('movie_id')
+
     const [movieDetails, setMovieDetails] = useState({});
 
     useEffect(() => {
-        movieService.getMovieDetails(movie_id).then(({data}) => {
-            setMovieDetails({...data});
-        })
+        movieService.getMovieDetails(movie_id)
+            .then(({data}) => {
+                setMovieDetails({...data});
+            })
     }, [movie_id])
 
     return (

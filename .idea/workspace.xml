@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30ffa000-0226-4f33-8c41-ad58baa4bf9c" name="Changes" comment="006">
-      <change afterPath="$PROJECT_DIR$/src/Buttons/index.js" afterDir="false" />
+    <list default="true" id="30ffa000-0226-4f33-8c41-ad58baa4bf9c" name="Changes" comment="Finaly!!!">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Buttons/PageButtons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Buttons/PageButtons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Buttons/PageButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Buttons/PageButtons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Movies/Movies.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Movies/Movies.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Movies/Movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Movies/Movies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Constants/urls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants/urls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layouts/MainLayout/MainLayout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/MainLayout/MainLayout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layouts/MainLayout/MainLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layouts/MainLayout/MainLayout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/HomePage/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/HomePage/HomePage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/HomePage/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/HomePage/HomePage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/MovieInfoPage/MovieInfoPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/MovieInfoPage/MovieInfoPage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/MovieInfoPage/MovieInfoPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/MovieInfoPage/MovieInfoPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/UserPage/UserPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/UserPage/UserPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/movieService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/movieService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,21 +53,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/romansyrko/IdeaProjects/Okten School/miniproject-react-movie-db-tmdb-api",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/Components" />
     </key>
@@ -93,7 +106,31 @@
       <workItem from="1654261269497" duration="9530000" />
       <workItem from="1654325951552" duration="7283000" />
       <workItem from="1654336132288" duration="15738000" />
-      <workItem from="1654412671817" duration="12553000" />
+      <workItem from="1654412671817" duration="13162000" />
+      <workItem from="1656008850590" duration="14000" />
+      <workItem from="1656008907379" duration="28000" />
+      <workItem from="1656660372543" duration="11000" />
+      <workItem from="1656660386439" duration="200000" />
+      <workItem from="1656660606462" duration="293000" />
+      <workItem from="1660815771688" duration="3859000" />
+      <workItem from="1660829489242" duration="598000" />
+      <workItem from="1660841213839" duration="1107000" />
+      <workItem from="1661186835444" duration="616000" />
+      <workItem from="1662106597989" duration="1783000" />
+      <workItem from="1662110854709" duration="1665000" />
+      <workItem from="1662122499095" duration="1413000" />
+      <workItem from="1662123978306" duration="892000" />
+      <workItem from="1662634175990" duration="689000" />
+      <workItem from="1664020745300" duration="773000" />
+      <workItem from="1666028136910" duration="654000" />
+      <workItem from="1666276489026" duration="15400000" />
+      <workItem from="1666295343162" duration="834000" />
+      <workItem from="1666340784326" duration="15629000" />
+      <workItem from="1666364892067" duration="11140000" />
+      <workItem from="1666429211629" duration="1498000" />
+      <workItem from="1666679605525" duration="28000" />
+      <workItem from="1666703285735" duration="4000" />
+      <workItem from="1666705613737" duration="757000" />
     </task>
     <task id="LOCAL-00001" summary="004">
       <created>1654261183427</created>
@@ -116,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654374006975</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Finaly!!!">
+      <created>1654430784882</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1654430784882</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,7 +181,8 @@
     <MESSAGE value="004" />
     <MESSAGE value="005" />
     <MESSAGE value="006" />
-    <option name="LAST_COMMIT_MESSAGE" value="006" />
+    <MESSAGE value="Finaly!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finaly!!!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

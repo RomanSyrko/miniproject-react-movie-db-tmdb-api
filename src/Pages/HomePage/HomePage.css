@@ -1,46 +1,66 @@
-*{
+* {
     text-decoration: none;
     color: #1a2e44;
     font-family: "Roboto Light", sans-serif;
     /*font-weight: 900;*/
 }
-h3{
+
+h3 {
     font-size: 50px;
 }
 
-body{
+body {
     background-color: var(--base2);
 }
 
-.dark{
+.dark {
     background-color: var(--baseDark3);
 }
 
 
-
-.wrap{
+.wrap {
     display: flex;
 }
-.DColumn{
+
+.DColumn {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.DFlex{
+
+.DFlex {
     display: flex;
     flex-direction: column;
 }
-.MovieWrap{
+
+.MovieWrap {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+.searchBar {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: var(--base2);
+    box-shadow: var(--base-shadow-active);
 
+}
+.searchBar::placeholder{
+    color: var(--baseDark3);
+}
 
-
-
-
+.dark .searchBar{
+    background: var(--baseDark2);
+    box-shadow: var(--base-shadow-active-dark);
+}
+.dark .searchBar::placeholder{
+    color: var(--base1);
+}
 
 /*.wrap{*/
 /*    display: flex;*/
